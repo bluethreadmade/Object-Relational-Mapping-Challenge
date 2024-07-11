@@ -78,7 +78,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!categoryData) {
-      restart.status(404).json({ message: 'No category witht this id' });
+      restart.status(404).json({ message: 'No category with this id' });
       return;
     }
 
